@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.mail.qa.testcases.CloudPageTest">
+        <methods>
+          <include name="VerifyUploadSmartPhoneTest"/>
+          <include name="beforeMethod"/>
+          <include name="VerfiyCloudListTest"/>
+          <include name="VerifyCloudTextTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.mail.qa.testcases.CloudPageTest -->
+      <class name="com.mail.qa.testcases.HomePageTest">
+        <methods>
+          <include name="VerifyFooterList"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="VerifyCloudLinkTest"/>
+        </methods>
+      </class> <!-- com.mail.qa.testcases.HomePageTest -->
+      <class name="com.mail.qa.testcases.ContactPageTest">
+        <methods>
+          <include name="SelectCheckboxTest"/>
+          <include name="beforeMethod"/>
+          <include name="validateCreateNewContact"/>
+          <include name="VerifyContactTextTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.mail.qa.testcases.ContactPageTest -->
+      <class name="com.mail.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="MailLogoTest"/>
+          <include name="LoginTest"/>
+          <include name="Setup"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- com.mail.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

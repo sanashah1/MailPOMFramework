@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="160.786" tests="38" errors="0" skipped="29" failures="4">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\QA\Selenium_Workspace\MailPOMFramework\target\test-classes;C:\QA\Selenium_Workspace\MailPOMFramework\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Windows\Temp\surefire6916798249646468728\surefirebooter-20240820122421312_3.jar C:\Windows\Temp\surefire6916798249646468728 2024-08-20T12-24-19_592-jvmRun1 surefire-20240820122421312_1tmp surefire_0-20240820122421312_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\QA\Selenium_Workspace\MailPOMFramework\target\test-classes;C:\QA\Selenium_Workspace\MailPOMFramework\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\QA\Selenium_Workspace\MailPOMFramework"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire6916798249646468728\surefirebooter-20240820122421312_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="PHOEBE🐾$"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\WINDOWS\system32\config\systemprofile\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="C:\QA\Selenium_Workspace\MailPOMFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="webdriver.gecko.driver" value="C:\driver\geckodriver.exe"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\QA\ANT_HOME\apache-ant-1.10.13-bin\apache-ant-1.10.13\bin;C:\QA\MAVEN_HOME\apache-maven-3.9.3\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-17.0.10\bin;C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="beforeMethod" classname="com.mail.qa.testcases.CloudPageTest" time="1.762">
+    <failure message="Process unexpectedly closed with status 0&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;PHOEBE🐾&apos;, ip: &apos;Unknown&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: driver.version: FirefoxDriver&#10;remote stacktrace: " type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+Process unexpectedly closed with status 0
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'PHOEBE🐾', ip: 'Unknown', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:103)
+	at com.mail.qa.base.TestBase.initilization(TestBase.java:45)
+	at com.mail.qa.testcases.CloudPageTest.beforeMethod(CloudPageTest.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-err><![CDATA[1724181863561	geckodriver	INFO	Listening on 127.0.0.1:29483
+1724181863816	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\WINDOWS\\SystemTemp\\rust_mozprofileg0JO9z"
+]]></system-err>
+  </testcase>
+  <testcase name="beforeMethod" classname="com.mail.qa.testcases.CloudPageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeMethod" classname="com.mail.qa.testcases.CloudPageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="VerifyCloudTextTest" classname="com.mail.qa.testcases.CloudPageTest" time="0.0">
+    <skipped message="Process unexpectedly closed with status 0&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;PHOEBE🐾&apos;, ip: &apos;Unknown&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: driver.version: FirefoxDriver&#10;remote stacktrace: "/>
+  </testcase>
+  <testcase name="afterMethod" classname="com.mail.qa.testcases.CloudPageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterMethod" classname="com.mail.qa.testcases.CloudPageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterMethod" classname="com.mail.qa.testcases.CloudPageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="VerfiyCloudListTest" classname="com.mail.qa.testcases.CloudPageTest" time="0.0">
+    <skipped message="Process unexpectedly closed with status 0&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;PHOEBE🐾&apos;, ip: &apos;Unknown&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: driver.version: FirefoxDriver&#10;remote stacktrace: "/>
+  </testcase>
+  <testcase name="VerifyUploadSmartPhoneTest" classname="com.mail.qa.testcases.CloudPageTest" time="0.0">
+    <skipped message="Process unexpectedly closed with status 0&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;PHOEBE🐾&apos;, ip: &apos;Unknown&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: driver.version: FirefoxDriver&#10;remote stacktrace: "/>
+  </testcase>
+  <testcase name="MultipleCheckboxSelected" classname="com.mail.qa.testcases.ContactPageTest" time="3.181">
+    <system-out><![CDATA[Before navigating to: 'https://www.mail.com/'
+Navigated to:'https://www.mail.com/'
+Trying to find Element By : By.id: login-button
+Found Element By : By.id: login-button
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (69824073-038c-4c3f-9643-fc00bfb950b3)] -> id: login-button]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (69824073-038c-4c3f-9643-fc00bfb950b3)] -> id: login-button]
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //button[@class='btn btn-block login-submit']
+Found Element By : By.xpath: //button[@class='btn btn-block login-submit']
+Trying to find Element By : By.linkText: Contacts
+Found Element By : By.linkText: Contacts
+Trying to find Element By : By.xpath: //tbody[@class='entries']//tr[@class='entry contact ui-draggable ui-draggable-handle ui-droppable']//td[@title='shah, sheeja']
+Found Element By : By.xpath: //tbody[@class='entries']//tr[@class='entry contact ui-draggable ui-draggable-handle ui-droppable']//td[@title='shah, sheeja']
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (69824073-038c-4c3f-9643-fc00bfb950b3)] -> xpath: //tbody[@class='entries']//tr[@class='entry contact ui-draggable ui-draggable-handle ui-droppable']//td[@title='shah, sheeja']]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (69824073-038c-4c3f-9643-fc00bfb950b3)] -> xpath: //tbody[@class='entries']//tr[@class='entry contact ui-draggable ui-draggable-handle ui-droppable']//td[@title='shah, sheeja']]
+Trying to find Element By : By.xpath: //tbody[@class='entries']//tr[@class='entry contact ui-draggable ui-draggable-handle ui-droppable']//td[@title='singh, sohan']
+Found Element By : By.xpath: //tbody[@class='entries']//tr[@class='entry contact ui-draggable ui-draggable-handle ui-droppable']//td[@title='singh, sohan']
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (69824073-038c-4c3f-9643-fc00bfb950b3)] -> xpath: //tbody[@class='entries']//tr[@class='entry contact ui-draggable ui-draggable-handle ui-droppable']//td[@title='singh, sohan']]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (69824073-038c-4c3f-9643-fc00bfb950b3)] -> xpath: //tbody[@class='entries']//tr[@class='entry contact ui-draggable ui-draggable-handle ui-droppable']//td[@title='singh, sohan']]
+Trying to find Element By : By.xpath: //tbody[@class='entries']//tr[@class='entry contact ui-draggable ui-draggable-handle ui-droppable']//td[@title='shah, sheeja']
+Found Element By : By.xpath: //tbody[@class='entries']//tr[@class='entry contact ui-draggable ui-draggable-handle ui-droppable']//td[@title='shah, sheeja']
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (69824073-038c-4c3f-9643-fc00bfb950b3)] -> xpath: //tbody[@class='entries']//tr[@class='entry contact ui-draggable ui-draggable-handle ui-droppable']//td[@title='shah, sheeja']]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (69824073-038c-4c3f-9643-fc00bfb950b3)] -> xpath: //tbody[@class='entries']//tr[@class='entry contact ui-draggable ui-draggable-handle ui-droppable']//td[@title='shah, sheeja']]
+Trying to find Element By : By.xpath: //tbody[@class='entries']//tr[@class='entry contact ui-draggable ui-draggable-handle ui-droppable']//td[@title='singh, sohan']
+Found Element By : By.xpath: //tbody[@class='entries']//tr[@class='entry contact ui-draggable ui-draggable-handle ui-droppable']//td[@title='singh, sohan']
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (69824073-038c-4c3f-9643-fc00bfb950b3)] -> xpath: //tbody[@class='entries']//tr[@class='entry contact ui-draggable ui-draggable-handle ui-droppable']//td[@title='singh, sohan']]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (69824073-038c-4c3f-9643-fc00bfb950b3)] -> xpath: //tbody[@class='entries']//tr[@class='entry contact ui-draggable ui-draggable-handle ui-droppable']//td[@title='singh, sohan']]
+]]></system-out>
+    <system-err><![CDATA[1724181864462	geckodriver	INFO	Listening on 127.0.0.1:39233
+1724181864506	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\WINDOWS\\SystemTemp\\rust_mozprofilehe9oiB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724181865510	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724181865825	Marionette	INFO	Listening on port 49851
+Read port: 49851
+1724181866159	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Fallback WR to SW-WR + D3D11
+[GFX1-]: Fallback SW-WR + D3D11 to SW-WR
+[GFX1-]: Fallback remains SW-WR
+[GFX1-]: Failed to initialize GPU process
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript error: resource://gre/modules/WindowsLaunchOnLogin.sys.mjs, line 35: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWindowsRegKey.open]
+JavaScript error: resource://gre/modules/WindowsLaunchOnLogin.sys.mjs, line 35: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWindowsRegKey.open]
+Aug 20, 2024 12:24:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: https://9ac19ed3fcfa32fba3bf11c772039004.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html line 1 > injectedScript, line 4: TypeError: navigator.userAgentData is undefined
+JavaScript error: https://9ac19ed3fcfa32fba3bf11c772039004.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html line 1 > injectedScript, line 4: TypeError: navigator.userAgentData is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/RlFX-4NwKm1Os67zlSzR0i3vyvyfLiVfrrl7q6krc_4.js line 2 > eval line 3081 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-1RYxePXT9bCS2&moatClientLevel2=qfm&moatClientLevel3=09f68984-359e-4b2e-9a35-6f7b81adec2f&moatClientLevel4=00e799b4-0c7e-41df-a6b7-b91ffcb663fd&uid=hwDUL91bhniTXdZ_2xWBKtoAmHzdW4wzi1rWfYtc132LWtAqBur-Aw==, line 330: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-68MZuGT5k2hdq&moatClientLevel2=qfm&moatClientLevel3=572d85b2-9b58-4037-b6c7-abdd70fe21f6&moatClientLevel4=293b4505-4ff4-4e7e-8166-18fcb3771046&uid=l4VAQZPSGhaK0UUVnswXTpeADhaT1xBaxtMVRcbWFETC1hMSz7O01w==, line 330: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/RlFX-4NwKm1Os67zlSzR0i3vyvyfLiVfrrl7q6krc_4.js line 2 > eval line 2888 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/RlFX-4NwKm1Os67zlSzR0i3vyvyfLiVfrrl7q6krc_4.js line 2 > eval line 1259 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.mail.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.mail.com."
+JavaScript error: https://live.primis.tech/content/video/hls/hls.0.12.4_3.min.js, line 3: SecurityError: Permission denied to access property "performance" on cross-origin object
+1724181886715	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://s0.2mdn.net/879366/express_html_inpage_rendering_lib_200_280.js, line 18: Script terminated by timeout at:
+v@https://s0.2mdn.net/879366/express_html_inpage_rendering_lib_200_280.js:18:75
+h.Ka@https://s0.2mdn.net/879366/express_html_inpage_rendering_lib_200_280.js:145:1743
+h.ba@https://s0.2mdn.net/879366/express_html_inpage_rendering_lib_200_280.js:145:1527
+zf@https://s0.2mdn.net/879366/express_html_inpage_rendering_lib_200_280.js:55:306
+b@https://s0.2mdn.net/879366/express_html_inpage_rendering_lib_200_280.js:53:297
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1724181895578	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1724181900306	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+JavaScript warning: https://pagead2.googlesyndication.com/bg/RlFX-4NwKm1Os67zlSzR0i3vyvyfLiVfrrl7q6krc_4.js line 2 > eval line 2451 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1724181901116	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+1724181901859	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+1724181902622	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+]]></system-err>
+  </testcase>
+  <testcase name="beforeMethod" classname="com.mail.qa.testcases.ContactPageTest" time="20.558">
+    <failure message="Navigation timed out after 10000 ms&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;PHOEBE🐾&apos;, ip: &apos;Unknown&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240812083845, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20628, moz:profile: C:\WINDOWS\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Session ID: 7230c867-9be1-4b7a-bf2d-1adb33c27494" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Navigation timed out after 10000 ms
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'PHOEBE🐾', ip: 'Unknown', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240812083845, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20628, moz:profile: C:\WINDOWS\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 7230c867-9be1-4b7a-bf2d-1adb33c27494
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy8.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at com.mail.qa.base.TestBase.initilization(TestBase.java:62)
+	at com.mail.qa.testcases.ContactPageTest.beforeMethod(ContactPageTest.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Before navigating to: 'https://www.mail.com/'
+Exception occured: org.openqa.selenium.TimeoutException: Navigation timed out after 10000 ms
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'PHOEBE🐾', ip: 'Unknown', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240812083845, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20628, moz:profile: C:\WINDOWS\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 7230c867-9be1-4b7a-bf2d-1adb33c27494
+]]></system-out>
+    <system-err><![CDATA[1724181902846	Marionette	INFO	Stopped listening on port 49851
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1724181904710	geckodriver	INFO	Listening on 127.0.0.1:10753
+1724181904777	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\WINDOWS\\SystemTemp\\rust_mozprofileqSFJNx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724181905612	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724181905796	Marionette	INFO	Listening on port 50438
+Read port: 50438
+1724181906131	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Fallback WR to SW-WR + D3D11
+[GFX1-]: Fallback SW-WR + D3D11 to SW-WR
+[GFX1-]: Fallback remains SW-WR
+[GFX1-]: Failed to initialize GPU process
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript error: resource://gre/modules/WindowsLaunchOnLogin.sys.mjs, line 35: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWindowsRegKey.open]
+JavaScript error: resource://gre/modules/WindowsLaunchOnLogin.sys.mjs, line 35: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWindowsRegKey.open]
+Aug 20, 2024 12:25:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: https://3bf89e1b6002f1ab6611553382250d72.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html line 1 > injectedScript, line 5: TypeError: navigator.userAgentData is undefined
+JavaScript error: https://3bf89e1b6002f1ab6611553382250d72.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html line 1 > injectedScript, line 4: TypeError: navigator.userAgentData is undefined
+JavaScript error: https://3bf89e1b6002f1ab6611553382250d72.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html line 1 > injectedScript, line 4: TypeError: navigator.userAgentData is undefined
+Aug 20, 2024 12:25:18 PM org.openqa.selenium.remote.ErrorCodes toStatus
+INFO: HTTP Status: '500' -> incorrect JSON status mapping for 'timeout' (408 expected)
+]]></system-err>
+  </testcase>
+  <testcase name="beforeMethod" classname="com.mail.qa.testcases.ContactPageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeMethod" classname="com.mail.qa.testcases.ContactPageTest" time="0.0">
+    <skipped/>
+    <system-err><![CDATA[JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-1RYxePXT9bCS2&moatClientLevel2=qfm&moatClientLevel3=09f68984-359e-4b2e-9a35-6f7b81adec2f&moatClientLevel4=00e799b4-0c7e-41df-a6b7-b91ffcb663fd&uid=1pzPD4XAzFvJy8hc0dWaCNTOg1TczMpA3MHMVNWemlrWnJ4IYcYc6w==, line 330: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://3bf89e1b6002f1ab6611553382250d72.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html, line 116: TypeError: document.getElementById(...) is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/RlFX-4NwKm1Os67zlSzR0i3vyvyfLiVfrrl7q6krc_4.js line 2 > eval line 6287 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-68MZuGT5k2hdq&moatClientLevel2=qfm&moatClientLevel3=572d85b2-9b58-4037-b6c7-abdd70fe21f6&moatClientLevel4=293b4505-4ff4-4e7e-8166-18fcb3771046&uid=X-RSLFyzBS5A4wUsVa8DLAi0GixVuwNgWboHKFmxVS8L5wAo8q_WJg==, line 330: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-68MZuGT5k2hdq&moatClientLevel2=qfm&moatClientLevel3=12195a32-6011-4a79-8376-864716ff91fc&moatClientLevel4=cbc885e9-7442-418f-b566-6153287c149e&uid=GBaMRRgQjkEZEN9GSkfYThkSixQfEolGGhyGRk8d3BIdFtgVHhOKFMYPwss=, line 330: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://3bf89e1b6002f1ab6611553382250d72.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html, line 63: TypeError: document.getElementById(...) is null
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1724181920336&ver1=2.2.3&qid=53232313f523332313f5333393&rnd=6gvl4txr56c4&cid=933 line 1 > eval, line 175: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+]]></system-err>
+  </testcase>
+  <testcase name="beforeMethod" classname="com.mail.qa.testcases.ContactPageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="SelectCheckboxTest" classname="com.mail.qa.testcases.ContactPageTest" time="0.0">
+    <skipped message="Navigation timed out after 10000 ms&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;PHOEBE🐾&apos;, ip: &apos;Unknown&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240812083845, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20628, moz:profile: C:\WINDOWS\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Session ID: 7230c867-9be1-4b7a-bf2d-1adb33c27494"/>
+  </testcase>
+  <testcase name="afterMethod" classname="com.mail.qa.testcases.ContactPageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterMethod" classname="com.mail.qa.testcases.ContactPageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterMethod" classname="com.mail.qa.testcases.ContactPageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterMethod" classname="com.mail.qa.testcases.ContactPageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="VerifyContactTextTest" classname="com.mail.qa.testcases.ContactPageTest" time="0.0">
+    <skipped message="Navigation timed out after 10000 ms&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;PHOEBE🐾&apos;, ip: &apos;Unknown&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240812083845, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20628, moz:profile: C:\WINDOWS\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Session ID: 7230c867-9be1-4b7a-bf2d-1adb33c27494"/>
+  </testcase>
+  <testcase name="validateCreateNewContact[Miss., Lenny, Sherper, Other, LennySherp@hotmail.com, Scotia](1)" classname="com.mail.qa.testcases.ContactPageTest" time="0.0">
+    <skipped message="Navigation timed out after 10000 ms&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;PHOEBE🐾&apos;, ip: &apos;Unknown&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240812083845, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20628, moz:profile: C:\WINDOWS\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Session ID: 7230c867-9be1-4b7a-bf2d-1adb33c27494"/>
+  </testcase>
+  <testcase name="validateCreateNewContact[Dr., Tara, Hardy, Business, Dr.Tara@canadahealth.com, Health](2)" classname="com.mail.qa.testcases.ContactPageTest" time="0.0">
+    <skipped message="Navigation timed out after 10000 ms&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;PHOEBE🐾&apos;, ip: &apos;Unknown&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240812083845, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20628, moz:profile: C:\WINDOWS\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Session ID: 7230c867-9be1-4b7a-bf2d-1adb33c27494"/>
+  </testcase>
+  <testcase name="VerifyHomePageTitleTest" classname="com.mail.qa.testcases.HomePageTest" time="0.006">
+    <system-out><![CDATA[Before navigating to: 'https://www.mail.com/'
+Navigated to:'https://www.mail.com/'
+Trying to find Element By : By.id: login-button
+Found Element By : By.id: login-button
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (16056860-8a79-44d8-aa08-606e7ee90d71)] -> id: login-button]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (16056860-8a79-44d8-aa08-606e7ee90d71)] -> id: login-button]
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //button[@class='btn btn-block login-submit']
+Found Element By : By.xpath: //button[@class='btn btn-block login-submit']
+]]></system-out>
+    <system-err><![CDATA[JavaScript error: https://s0.2mdn.net/sadbundle/15097102905573360528/index.html?ev=01_252, line 278: TypeError: studio.Enabler is undefined
+1724181924417	geckodriver	INFO	Listening on 127.0.0.1:44564
+1724181924520	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\WINDOWS\\SystemTemp\\rust_mozprofile6jVhJF"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/RlFX-4NwKm1Os67zlSzR0i3vyvyfLiVfrrl7q6krc_4.js line 2 > eval line 5298 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/RlFX-4NwKm1Os67zlSzR0i3vyvyfLiVfrrl7q6krc_4.js line 2 > eval line 6464 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/RlFX-4NwKm1Os67zlSzR0i3vyvyfLiVfrrl7q6krc_4.js line 2 > eval line 6226 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724181926299	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1724181922307&ver1=2.2.3&qid=53232313f523332313f5333393&rnd=vfoafmny7epe&cid=933 line 1 > eval, line 175: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1724181926801	Marionette	INFO	Listening on port 51080
+Read port: 
+1724181926817	geckodriver::browser	WARN	Failed fo convert  to u16
+Read port: 
+1724181926920	geckodriver::browser	WARN	Failed fo convert  to u16
+Read port: 51080
+1724181927413	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Fallback WR to SW-WR + D3D11
+[GFX1-]: Fallback SW-WR + D3D11 to SW-WR
+[GFX1-]: Fallback remains SW-WR
+[GFX1-]: Failed to initialize GPU process
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript error: resource://gre/modules/WindowsLaunchOnLogin.sys.mjs, line 35: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWindowsRegKey.open]
+JavaScript error: resource://gre/modules/WindowsLaunchOnLogin.sys.mjs, line 35: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWindowsRegKey.open]
+Aug 20, 2024 12:25:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1724181935683	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/RlFX-4NwKm1Os67zlSzR0i3vyvyfLiVfrrl7q6krc_4.js line 2 > eval line 7609 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.mail.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.mail.com."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/RlFX-4NwKm1Os67zlSzR0i3vyvyfLiVfrrl7q6krc_4.js line 2 > eval line 1204 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://live.primis.tech/content/video/hls/hls.0.12.4_3.min.js, line 3: SecurityError: Permission denied to access property "performance" on cross-origin object
+1724181942537	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://cdn.ampproject.org/rtv/012406241625000/amp4ads-v0.mjs, line 2: Script terminated by timeout at:
+A@https://cdn.ampproject.org/rtv/012406241625000/amp4ads-v0.mjs:2:1792
+getExpr@https://cdn.ampproject.org/rtv/012406241625000/amp4ads-v0.mjs:2:144521
+expand@https://cdn.ampproject.org/rtv/012406241625000/amp4ads-v0.mjs:2:108067
+expandUrlAsync@https://cdn.ampproject.org/rtv/012406241625000/amp4ads-v0.mjs:2:142031
+f/eIt/<@https://cdn.ampproject.org/rtv/012406241625000/v0/amp-analytics-0.1.mjs:2:59419
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+]]></system-err>
+  </testcase>
+  <testcase name="VerifyInboxboxLinkTest" classname="com.mail.qa.testcases.HomePageTest" time="0.304">
+    <system-out><![CDATA[Before navigating to: 'https://www.mail.com/'
+Navigated to:'https://www.mail.com/'
+Trying to find Element By : By.id: login-button
+Found Element By : By.id: login-button
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (f1327446-641c-410c-a3a6-faa875950006)] -> id: login-button]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (f1327446-641c-410c-a3a6-faa875950006)] -> id: login-button]
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //button[@class='btn btn-block login-submit']
+Found Element By : By.xpath: //button[@class='btn btn-block login-submit']
+Trying to find Element By : By.linkText: Inbox
+Found Element By : By.linkText: Inbox
+]]></system-out>
+    <system-err><![CDATA[1724181947213	Marionette	INFO	Stopped listening on port 51080
+JavaScript warning: https://dl.mail.com/uim/live/logic_pbjs.html, line 871: Script terminated by timeout at:
+@https://dl.mail.com/uim/live/logic_pbjs.html:871:4
+
+Dynamically enable window occlusion 1
+1724181949282	geckodriver	INFO	Listening on 127.0.0.1:49304
+1724181949312	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\WINDOWS\\SystemTemp\\rust_mozprofileLXisYJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724181950035	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724181950271	Marionette	INFO	Listening on port 51575
+Read port: 51575
+1724181950649	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Fallback WR to SW-WR + D3D11
+[GFX1-]: Fallback SW-WR + D3D11 to SW-WR
+[GFX1-]: Fallback remains SW-WR
+[GFX1-]: Failed to initialize GPU process
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript error: resource://gre/modules/WindowsLaunchOnLogin.sys.mjs, line 35: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWindowsRegKey.open]
+JavaScript error: resource://gre/modules/WindowsLaunchOnLogin.sys.mjs, line 35: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWindowsRegKey.open]
+Aug 20, 2024 12:25:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.mail.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.mail.com."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/RlFX-4NwKm1Os67zlSzR0i3vyvyfLiVfrrl7q6krc_4.js line 2 > eval line 6380 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1724181959669	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+]]></system-err>
+  </testcase>
+  <testcase name="VerifyContactslinkTest" classname="com.mail.qa.testcases.HomePageTest" time="0.274">
+    <system-out><![CDATA[Before navigating to: 'https://www.mail.com/'
+Navigated to:'https://www.mail.com/'
+Trying to find Element By : By.id: login-button
+Found Element By : By.id: login-button
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (9108d512-6115-4c5a-ba2e-3275943806e1)] -> id: login-button]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (9108d512-6115-4c5a-ba2e-3275943806e1)] -> id: login-button]
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //button[@class='btn btn-block login-submit']
+Found Element By : By.xpath: //button[@class='btn btn-block login-submit']
+Trying to find Element By : By.linkText: Contacts
+Found Element By : By.linkText: Contacts
+]]></system-out>
+    <system-err><![CDATA[1724181964369	Marionette	INFO	Stopped listening on port 51575
+Dynamically enable window occlusion 1
+1724181966232	geckodriver	INFO	Listening on 127.0.0.1:62741
+1724181966295	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\WINDOWS\\SystemTemp\\rust_mozprofileZ69bYH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724181966876	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724181967122	Marionette	INFO	Listening on port 51975
+Read port: 51975
+1724181967509	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Fallback WR to SW-WR + D3D11
+[GFX1-]: Fallback SW-WR + D3D11 to SW-WR
+[GFX1-]: Fallback remains SW-WR
+[GFX1-]: Failed to initialize GPU process
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript error: resource://gre/modules/WindowsLaunchOnLogin.sys.mjs, line 35: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWindowsRegKey.open]
+JavaScript error: resource://gre/modules/WindowsLaunchOnLogin.sys.mjs, line 35: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWindowsRegKey.open]
+Aug 20, 2024 12:26:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 128: Script terminated by timeout at:
+V@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:128:716
+gh@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:133:426
+yn@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:234:52
+ep/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:260:470
+N/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:91:478
+L/this.pd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:869
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:79:465
+ph/c/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:136:320
+Wa@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:48:339
+Ta.prototype.flush@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:48:127
+Va@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:47:490
+ph/c/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:136:292
+xc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:218
+n.pd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:79:698
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:79:465
+kg/</</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:119:516
+Sa.prototype.Qb/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:47:322
+kg/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:119:525
+xc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:218
+n.pd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:79:698
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:79:465
+kg/</</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:119:516
+Sa.prototype.Qb/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:47:322
+kg/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:119:525
+xc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:218
+n.pd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:79:698
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:79:465
+f@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:92:1284
+
+JavaScript error: https://3bf89e1b6002f1ab6611553382250d72.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html line 1 > injectedScript, line 5: TypeError: navigator.userAgentData is undefined
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-1RYxePXT9bCS2&moatClientLevel2=qfm&moatClientLevel3=612d1ad0-0495-4338-98af-251d4d0e6edd&moatClientLevel4=a7be6340-4107-43d1-814c-9cca0e6d5a1f&uid=64BzRevRdUq203FJ64ZyTb-Cdxi5hCIY74ciGb7Sfkrt1iVKvIgiGDZ8l04=, line 330: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.mail.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.mail.com."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/RlFX-4NwKm1Os67zlSzR0i3vyvyfLiVfrrl7q6krc_4.js line 2 > eval line 2020 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://live.primis.tech/content/video/hls/hls.0.12.4_3.min.js, line 3: SecurityError: Permission denied to access property "performance" on cross-origin object
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178, line 246: Script terminated by timeout at:
+eo@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:246:143
+co@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:252:705
+go/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:246:1122
+N/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:91:478
+L/this.pd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:90:869
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:79:465
+n.pd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:79:698
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:79:465
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:82:867
+fd.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:89:806
+xc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:80:218
+n.pd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:79:698
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:79:465
+n.pd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:79:698
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:79:465
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:82:867
+fd.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:89:806
+xc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:80:218
+n.pd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:79:698
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:79:465
+n.pd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:79:698
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:79:465
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:82:867
+fd.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:89:806
+xc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:80:218
+n.pd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:79:698
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:79:465
+n.pd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:79:698
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:79:465
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:82:867
+fd.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:89:806
+xc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:80:218
+n.pd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:79:698
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:79:465
+cf/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:100:3975
+L/this.pd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:90:869
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:79:465
+N/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:91:471
+L/this.pd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:90:869
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:79:465
+n.pd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:79:698
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:79:465
+Rn/</h/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:240:1969
+Wa@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:48:339
+Ta.prototype.flush@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:48:147
+Va@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:47:490
+ph/c/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:136:292
+xc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:80:218
+n.pd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:79:698
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:79:465
+U/</</d<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:100:3554
+L/this.pd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:90:869
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:79:465
+Le/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:100:962
+L/this.pd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:90:869
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:79:465
+kg/</</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:119:516
+Sa.prototype.Qb/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:47:322
+kg/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:119:525
+xc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:80:218
+n.pd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:79:698
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:79:465
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:82:867
+fd.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:89:806
+e@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:146:132
+f@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:141:111
+Lh/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js?cache=95335178:142:214
+
+1724181978081	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+]]></system-err>
+  </testcase>
+  <testcase name="beforeMethod" classname="com.mail.qa.testcases.HomePageTest" time="16.183">
+    <failure message="Navigation timed out after 10000 ms&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;PHOEBE🐾&apos;, ip: &apos;Unknown&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240812083845, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14888, moz:profile: C:\WINDOWS\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Session ID: aed95219-66e5-4878-be5b-d2b561618723" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Navigation timed out after 10000 ms
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'PHOEBE🐾', ip: 'Unknown', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240812083845, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14888, moz:profile: C:\WINDOWS\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: aed95219-66e5-4878-be5b-d2b561618723
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy8.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at com.mail.qa.base.TestBase.initilization(TestBase.java:62)
+	at com.mail.qa.testcases.HomePageTest.beforeMethod(HomePageTest.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Before navigating to: 'https://www.mail.com/'
+Exception occured: org.openqa.selenium.TimeoutException: Navigation timed out after 10000 ms
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'PHOEBE🐾', ip: 'Unknown', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240812083845, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14888, moz:profile: C:\WINDOWS\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: aed95219-66e5-4878-be5b-d2b561618723
+]]></system-out>
+    <system-err><![CDATA[1724181981706	Marionette	INFO	Stopped listening on port 51975
+Dynamically enable window occlusion 1
+1724181983403	geckodriver	INFO	Listening on 127.0.0.1:5804
+1724181983436	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\WINDOWS\\SystemTemp\\rust_mozprofileiv0szt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724181984020	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724181984218	Marionette	INFO	Listening on port 52445
+Read port: 52445
+1724181984509	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Fallback WR to SW-WR + D3D11
+[GFX1-]: Fallback SW-WR + D3D11 to SW-WR
+[GFX1-]: Fallback remains SW-WR
+[GFX1-]: Failed to initialize GPU process
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript error: resource://gre/modules/WindowsLaunchOnLogin.sys.mjs, line 35: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWindowsRegKey.open]
+JavaScript error: resource://gre/modules/WindowsLaunchOnLogin.sys.mjs, line 35: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWindowsRegKey.open]
+Aug 20, 2024 12:26:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: https://309583c6b246a204d7e6ac1df326b83f.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html line 1 > injectedScript, line 4: TypeError: navigator.userAgentData is undefined
+JavaScript error: https://309583c6b246a204d7e6ac1df326b83f.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html line 1 > injectedScript, line 4: TypeError: navigator.userAgentData is undefined
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-1RYxePXT9bCS2&moatClientLevel2=qfm&moatClientLevel3=e51db09b-31bd-4f5d-b190-a036daa13454&moatClientLevel4=27a618c9-1caf-4a3a-9913-e52546903646&uid=IsZBZHLDE2M7wUNlc91FYifHXDYkk0V6I8gTZXTFRWQkxEYzcC43Ig==, line 330: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/RlFX-4NwKm1Os67zlSzR0i3vyvyfLiVfrrl7q6krc_4.js line 2 > eval line 4385 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-68MZuGT5k2hdq&moatClientLevel2=qfm&moatClientLevel3=ee1f72bc-d4da-4df7-bcba-b004ca10e2f4&moatClientLevel4=87ee470e-c75a-479e-a1a8-40dbd2663b17&uid=d-l0DHjqfwlsvnQKcqZzDiDuagQl6nYRde90WCW7cVgnuXVdi7kx9w==, line 330: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://ads.pubmatic.com/AdServer/js/user_sync.html?p=159196&userIdMacro=PM_UID&gdpr=0&gdpr_consent=&predirect=https%3A%2F%2Flive.primis.tech%2Flive%2FliveCS.php%3Fsource%3Dexternal%26advId%3D91%26advUuid%3DPM_UID, line 1: Script terminated by timeout at:
+H@https://ads.pubmatic.com/AdServer/js/user_sync.html?p=159196&userIdMacro=PM_UID&gdpr=0&gdpr_consent=&predirect=https%3A%2F%2Flive.primis.tech%2Flive%2FliveCS.php%3Fsource%3Dexternal%26advId%3D91%26advUuid%3DPM_UID:1:9760
+s@https://ads.pubmatic.com/AdServer/js/user_sync.html?p=159196&userIdMacro=PM_UID&gdpr=0&gdpr_consent=&predirect=https%3A%2F%2Flive.primis.tech%2Flive%2FliveCS.php%3Fsource%3Dexternal%26advId%3D91%26advUuid%3DPM_UID:1:9777
+L@https://ads.pubmatic.com/AdServer/js/user_sync.html?p=159196&userIdMacro=PM_UID&gdpr=0&gdpr_consent=&predirect=https%3A%2F%2Flive.primis.tech%2Flive%2FliveCS.php%3Fsource%3Dexternal%26advId%3D91%26advUuid%3DPM_UID:1:13849
+z@https://ads.pubmatic.com/AdServer/js/user_sync.html?p=159196&userIdMacro=PM_UID&gdpr=0&gdpr_consent=&predirect=https%3A%2F%2Flive.primis.tech%2Flive%2FliveCS.php%3Fsource%3Dexternal%26advId%3D91%26advUuid%3DPM_UID:1:11005
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/RlFX-4NwKm1Os67zlSzR0i3vyvyfLiVfrrl7q6krc_4.js line 2 > eval line 3739 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Aug 20, 2024 12:26:37 PM org.openqa.selenium.remote.ErrorCodes toStatus
+INFO: HTTP Status: '500' -> incorrect JSON status mapping for 'timeout' (408 expected)
+]]></system-err>
+  </testcase>
+  <testcase name="beforeMethod" classname="com.mail.qa.testcases.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="VerifyCloudLinkTest" classname="com.mail.qa.testcases.HomePageTest" time="0.0">
+    <skipped message="Navigation timed out after 10000 ms&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;PHOEBE🐾&apos;, ip: &apos;Unknown&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240812083845, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14888, moz:profile: C:\WINDOWS\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Session ID: aed95219-66e5-4878-be5b-d2b561618723"/>
+  </testcase>
+  <testcase name="afterMethod" classname="com.mail.qa.testcases.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterMethod" classname="com.mail.qa.testcases.HomePageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="VerifyFooterList" classname="com.mail.qa.testcases.HomePageTest" time="0.0">
+    <skipped message="Navigation timed out after 10000 ms&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;PHOEBE🐾&apos;, ip: &apos;Unknown&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240812083845, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14888, moz:profile: C:\WINDOWS\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Session ID: aed95219-66e5-4878-be5b-d2b561618723"/>
+  </testcase>
+  <testcase name="verifyTitlepageTest" classname="com.mail.qa.testcases.LoginPageTest" time="0.011">
+    <system-out><![CDATA[Before navigating to: 'https://www.mail.com/'
+Navigated to:'https://www.mail.com/'
+]]></system-out>
+    <system-err><![CDATA[1724181997681	geckodriver	INFO	Listening on 127.0.0.1:50531
+1724181997715	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\WINDOWS\\SystemTemp\\rust_mozprofilexrnycg"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724181998542	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724181998830	Marionette	INFO	Listening on port 52859
+Read port: 52859
+1724181999171	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Fallback WR to SW-WR + D3D11
+[GFX1-]: Fallback SW-WR + D3D11 to SW-WR
+[GFX1-]: Fallback remains SW-WR
+[GFX1-]: Failed to initialize GPU process
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript error: resource://gre/modules/WindowsLaunchOnLogin.sys.mjs, line 35: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWindowsRegKey.open]
+JavaScript error: resource://gre/modules/WindowsLaunchOnLogin.sys.mjs, line 35: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWindowsRegKey.open]
+Aug 20, 2024 12:26:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Setup" classname="com.mail.qa.testcases.LoginPageTest" time="16.802">
+    <failure message="Navigation timed out after 10000 ms&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;PHOEBE🐾&apos;, ip: &apos;Unknown&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240812083845, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 26888, moz:profile: C:\WINDOWS\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Session ID: 89908f4e-f008-4d6b-ba92-8785c8d78a96" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Navigation timed out after 10000 ms
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'PHOEBE🐾', ip: 'Unknown', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240812083845, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 26888, moz:profile: C:\WINDOWS\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 89908f4e-f008-4d6b-ba92-8785c8d78a96
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy8.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at com.mail.qa.base.TestBase.initilization(TestBase.java:62)
+	at com.mail.qa.testcases.LoginPageTest.Setup(LoginPageTest.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Before navigating to: 'https://www.mail.com/'
+Exception occured: org.openqa.selenium.TimeoutException: Navigation timed out after 10000 ms
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'PHOEBE🐾', ip: 'Unknown', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240812083845, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 26888, moz:profile: C:\WINDOWS\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 89908f4e-f008-4d6b-ba92-8785c8d78a96
+]]></system-out>
+    <system-err><![CDATA[1724182005794	Marionette	INFO	Stopped listening on port 52859
+JavaScript warning: https://dl.mail.com/uim/container/prebid-int_48.js, line 18: Script terminated by timeout at:
+4563/v/O/<@https://dl.mail.com/uim/container/prebid-int_48.js:18:1463
+y@https://dl.mail.com/uim/container/prebid-int_48.js:18:471
+
+Dynamically enable window occlusion 1
+1724182007994	geckodriver	INFO	Listening on 127.0.0.1:52895
+1724182008062	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\WINDOWS\\SystemTemp\\rust_mozprofileZf9NGl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724182008705	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724182008931	Marionette	INFO	Listening on port 53208
+Read port: 53208
+1724182009305	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Fallback WR to SW-WR + D3D11
+[GFX1-]: Fallback SW-WR + D3D11 to SW-WR
+[GFX1-]: Fallback remains SW-WR
+[GFX1-]: Failed to initialize GPU process
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript error: resource://gre/modules/WindowsLaunchOnLogin.sys.mjs, line 35: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWindowsRegKey.open]
+JavaScript error: resource://gre/modules/WindowsLaunchOnLogin.sys.mjs, line 35: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWindowsRegKey.open]
+Aug 20, 2024 12:26:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1724182014104	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/RlFX-4NwKm1Os67zlSzR0i3vyvyfLiVfrrl7q6krc_4.js line 2 > eval line 2896 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Aug 20, 2024 12:27:02 PM org.openqa.selenium.remote.ErrorCodes toStatus
+INFO: HTTP Status: '500' -> incorrect JSON status mapping for 'timeout' (408 expected)
+]]></system-err>
+  </testcase>
+  <testcase name="Setup" classname="com.mail.qa.testcases.LoginPageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="MailLogoTest" classname="com.mail.qa.testcases.LoginPageTest" time="0.0">
+    <skipped message="Navigation timed out after 10000 ms&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;PHOEBE🐾&apos;, ip: &apos;Unknown&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240812083845, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 26888, moz:profile: C:\WINDOWS\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Session ID: 89908f4e-f008-4d6b-ba92-8785c8d78a96"/>
+  </testcase>
+  <testcase name="closebrowser" classname="com.mail.qa.testcases.LoginPageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="closebrowser" classname="com.mail.qa.testcases.LoginPageTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="LoginTest" classname="com.mail.qa.testcases.LoginPageTest" time="0.0">
+    <skipped message="Navigation timed out after 10000 ms&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;PHOEBE🐾&apos;, ip: &apos;Unknown&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240812083845, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 26888, moz:profile: C:\WINDOWS\SystemTemp\rust_..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Session ID: 89908f4e-f008-4d6b-ba92-8785c8d78a96"/>
+  </testcase>
+</testsuite>

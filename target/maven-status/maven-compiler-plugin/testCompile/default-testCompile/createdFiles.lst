@@ -1,0 +1,4 @@
+com\mail\qa\testcases\CloudPageTest.class
+com\mail\qa\testcases\HomePageTest.class
+com\mail\qa\testcases\LoginPageTest.class
+com\mail\qa\testcases\ContactPageTest.class

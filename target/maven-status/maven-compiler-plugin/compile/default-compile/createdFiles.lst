@@ -1,0 +1,8 @@
+com\mail\qa\ExtentReportListener\ExtentReporterNG.class
+com\mail\qa\pages\LoginPage.class
+com\mail\qa\utilities\WebEventListeners.class
+com\mail\qa\pages\CloudPage.class
+com\mail\qa\pages\ContactsPage.class
+com\mail\qa\utilities\TestBaseUtil.class
+com\mail\qa\base\TestBase.class
+com\mail\qa\pages\HomePage.class

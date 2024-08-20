@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="MailFrameworkSuite">
+<listeners>
+		<listener class-name="com.mail.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+  <test name="Test">
+    <classes>
+	   <class name="com.mail.qa.testcases.LoginPageTest"/>
+      <class name="com.mail.qa.testcases.HomePageTest"/>
+      <class name="com.mail.qa.testcases.CloudPageTest"/>
+      <class name="com.mail.qa.testcases.ContactPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
